@@ -1,0 +1,7 @@
+C:\Users\rOOt\Desktop\projects\SOS\sOS\build\intermediates\classes\debug
+C:\Users\rOOt\Desktop\projects\SOS\sOS\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-8dd9d990eb47cd0b8723e0afe4006c0157db1cdb.jar
+C:\Users\rOOt\Desktop\projects\SOS\sOS\build\intermediates\pre-dexed\debug\classes-b7a931c966142f6efdfb02953d7a4efe6ac6b089.jar
+C:\Users\rOOt\Desktop\projects\SOS\sOS\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-1c98f90cd2f2e8441efaf9b778e07b4989320720.jar
+C:\Users\rOOt\Desktop\projects\SOS\sOS\build\intermediates\pre-dexed\debug\classes-e607cc37b094700594ebc8fd2ef4c2a15c3aab6b.jar
+C:\Users\rOOt\Desktop\projects\SOS\sOS\build\intermediates\pre-dexed\debug\classes-481dc8c5b9c655a996bf6e85a220b324b1ff46b1.jar
+C:\Users\rOOt\Desktop\projects\SOS\sOS\build\intermediates\pre-dexed\debug\classes-f63509272fa47560b6f2efaebc179548e6379c21.jar

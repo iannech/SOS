@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SOS.iml" filepath="$PROJECT_DIR$/SOS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sOS/sOS.iml" filepath="$PROJECT_DIR$/sOS/sOS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingtablibrary/slidingtablibrary.iml" filepath="$PROJECT_DIR$/slidingtablibrary/slidingtablibrary.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/police_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:onClick="onClick"
+        android:src="@drawable/m"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/TextView07"
+        android:layout_alignStart="@+id/TextView07" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hospital"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/hospital_button"
+        android:layout_alignLeft="@+id/hospital_button"
+        android:layout_alignStart="@+id/hospital_button" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fire Station"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/firestation_button"
+        android:layout_alignLeft="@+id/firestation_button"
+        android:layout_alignStart="@+id/firestation_button" />
+
+
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ambulance"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/ambulance_button"
+        android:layout_alignLeft="@+id/TextView02"
+        android:layout_alignStart="@+id/TextView02" />
+
+    <ImageButton
+        android:id="@+id/hospital_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+
+        android:src="@drawable/k"
+        android:layout_alignTop="@+id/ambulance_button"
+        android:layout_alignLeft="@+id/TextView07"
+        android:layout_alignStart="@+id/TextView07" />
+
+    <ImageButton
+        android:id="@+id/ambulance_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:src="@drawable/ambulance"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/TextView06"
+        android:layout_alignStart="@+id/TextView06" />
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Police"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/police_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp" />
+
+
+
+    <ImageButton
+        android:id="@+id/firestation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:src="@drawable/fp__lg_fire"
+        android:layout_alignTop="@+id/police_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="88dp"
+        android:layout_marginEnd="88dp" />
+
+
+</RelativeLayout>

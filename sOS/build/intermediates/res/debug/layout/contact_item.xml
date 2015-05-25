@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/avatarImageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_action_person" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/avatarImageView"
+            android:maxLines="1"
+            android:text="Bill Adora"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleTextView"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/avatarImageView"
+            android:maxLines="1"
+            android:text="0722674651"
+            android:textColor="#cccccc" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imgBtnRemoveContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/avatarImageView"
+        android:layout_margin="20dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_action_remove" />
+
+</LinearLayout>
+<!-- From: file:/C:/Users/rOOt/Desktop/projects/SOS/sOS/src/main/res/layout/contact_item.xml -->

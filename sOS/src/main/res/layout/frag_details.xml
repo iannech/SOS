@@ -1,0 +1,141 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#707070" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.details.MainActivity" >
+
+        <!-- Table Row 1 -->
+
+        <TableRow android:layout_marginTop="15dp" >
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:text="@string/firstname"
+                android:textColor="#180000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:width="120dp" />
+
+            <EditText
+                android:id="@+id/edittext1"
+                android:inputType="textPersonName"
+                android:width="180dp" />
+        </TableRow>
+
+        <!-- Table Row 2 -->
+
+        <TableRow android:layout_marginTop="15dp" >
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:text="@string/secondname"
+                android:textColor="#180000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edittext2"
+                android:inputType="textPersonName"
+                android:width="180dp" />
+        </TableRow>
+
+        <!-- Table Row 3 -->
+
+        <TableRow android:layout_marginTop="15dp" >
+
+            <TextView
+                android:id="@+id/textview3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:text="@string/DOB"
+                android:textColor="#180000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edittext3"
+                android:inputType="date"
+                android:width="180dp" />
+        </TableRow>
+        <!-- Table Row 4 -->
+
+        <TableRow android:layout_marginTop="15dp" >
+
+            <TextView
+                android:id="@+id/textview4"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:text="@string/Age"
+                android:textColor="#180000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edittext4"
+                android:inputType="number"
+                android:width="180dp" />
+        </TableRow>
+        <!-- Table Row 5 -->
+        <!-- Table Row 4 -->
+
+        <TableRow android:layout_marginTop="15dp" >
+
+            <TextView
+                android:id="@+id/textview5"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:text="@string/gender"
+                android:textColor="#180000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edittext5"
+                android:inputType="text"
+                android:width="180dp" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="15dp" >
+
+            <TextView
+                android:id="@+id/textview6"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:text="@string/number"
+                android:textColor="#180000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edittext6"
+                android:inputType="phone"
+                android:width="180dp" />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="15dp" >
+
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:text="@string/button"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>
